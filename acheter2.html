@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Acheter</title>
+    <style>
+        .bebe{
+            color: rgb(123, 40, 183);
+            background-color: black;
+            background-origin: border-box;
+            margin: 20px 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>LEGO WebStore</h1>
+    <hr>
+    <ul>
+        <li><a href="produit2.html">Produit</a></li>
+        <li><a href="acheter2.html">Acheter</a></li>
+        <li><a href="contact2.html">Contact</a></li>
+    </ul>
+    <hr>
+    <h2 class="bebe">Acheter des LEGO</h2>
+    <p>Remplissez le formulaire ci dessous pour commanender des LEGO !</p>
+    <h3>Informations personelles</h3>
+    <p>Civilite</p>
+    <form>
+        <input type="radio" name="civilite" id="mr">
+        <label for="mr">Mr.</label>
+        <input type="radio" name="civilite" id="mrs">
+        <label for="mrs">Mrs.</label>
+        <br>
+        <p>Nom:</p>
+        <input type="text" name="pers" id="nom">
+        <label for="nom"></label>
+        <p>Prenom:</p>
+        <input type="text" name="pers" id="prenom">
+        <label for="prenom"></label>
+
+        <p>Mail:</p>
+        <input type="text" name="pers" id="mail">
+        <label for="mail"></label>
+    </form>
+    
+    <h3>Informations de livraison</h3>
+
+    <form>
+        <label for="quant">Quantite commandee</label>
+        <select name="quant" id="quant">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>    
+        </select>
+        <br>
+        <br>
+        <p>Adresse de livraison</p>
+        <textarea name="adr" id="adr" cols="25" rows="5">
+        </textarea>
+        
+        <h3>Confirmation</h3>
+        <input type="checkbox" name="relu" id="relu">
+        <label for="relu">J'ai relu ma commande et certifie que ces informations sont correctes </label>
+        <br>
+        <br>
+        <input type="submit" value="Confirmer la commande">
+    </form>
+    <hr>
+    <footer>
+        <a href="#">Retour en haut de page </a>
+        <p>Auteur: Sinem Sevinç</p>
+        <p>ULCO | DEVELOPPEMENT WEB | 2017-2018 </p>
+        <p> Copyright(c) 2017 All Rights Reserved</p>
+    </footer>
+</body>
+</html>

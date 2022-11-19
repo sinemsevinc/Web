@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+*::selection{
+    background-color: #eec511;
+    color: #fff;
+}
+
+body {
+        background-image: url('arkaya4.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+    
+}
+.form {
+    border-radius: 20px;
+    margin: 100px auto;
+    width: 400px;
+    padding: 30px 25px;
+    background: #212121;
+}
+h1.login-title {
+    color: #FFF8EA;
+    margin: 0px auto 25px;
+    padding: 20px;
+    font-size: 40px;
+    font-style: inherit;
+    font-weight: bolder;
+    text-align: center;
+}
+.login-text{
+    color: #FFF8EA;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.login-input {
+    border-radius: 10px;
+    font-size: 15px;
+    color: #251B37;
+    background: #FFF8EA;
+    border: 1px solid #FFF8EA;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100%);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+.login-button {
+    border-radius: 20px;
+    color: #fff;
+    background: #218838;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: .03em;
+}
+.prod{
+    border-radius: 20px;
+    color: #fff;
+    background: #218838;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: .03em;
+}
+.link {
+    color: #666;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.link a:link a:visited{
+    text-decoration: none;
+    color: #eec511;
+}
+.register{
+    color: #eec511;
+}
+.register:hover{
+    color: #cca90f;
+}
+h3 {
+    font-weight: normal;
+    text-align: center;
+}
+.message{
+    border-radius: 20px;
+    background: #212121;
+    font-size: 15px;
+    height: 25px;
+    width: calc(100% - 23px);
+    width: 400px;
+    padding: 25px 25px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFF8EA;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delete-button{
+    background-color: #c82333;
+    margin-top: 1em;
+    color: #fff;
+    font-weight: 600;
+}
